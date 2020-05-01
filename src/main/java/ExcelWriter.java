@@ -92,7 +92,7 @@ public class ExcelWriter {
 
         // Resize all columns to fit the content size
         for(int i = 0; i < columns.length; i++) {
-            sheet.autoSizeColumn(i);
+            //sheet.autoSizeColumn(i);
         }
 
         // Write the output to a file
